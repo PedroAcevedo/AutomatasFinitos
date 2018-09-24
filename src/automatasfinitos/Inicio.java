@@ -424,6 +424,7 @@ public class Inicio extends javax.swing.JFrame {
         setPreferredSize(new java.awt.Dimension(600, 600));
 
         jTextField1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField1.setMaximumSize(new java.awt.Dimension(6, 35));
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -512,6 +513,7 @@ public class Inicio extends javax.swing.JFrame {
         jScrollPane6.setViewportView(jTextSignificativos);
 
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jTextField2.setMaximumSize(new java.awt.Dimension(6, 35));
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -542,6 +544,7 @@ public class Inicio extends javax.swing.JFrame {
         jTextMueveOP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTextMueveOP.setRows(1);
         jTextMueveOP.setTabSize(1);
+        jTextMueveOP.setMaximumSize(new java.awt.Dimension(433, 2331));
         jTextMueveOP.setMinimumSize(new java.awt.Dimension(433, 2331));
         jScrollPane7.setViewportView(jTextMueveOP);
 
@@ -550,6 +553,7 @@ public class Inicio extends javax.swing.JFrame {
         jTextMueveNOP.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTextMueveNOP.setRows(1);
         jTextMueveNOP.setTabSize(1);
+        jTextMueveNOP.setMaximumSize(new java.awt.Dimension(433, 2331));
         jTextMueveNOP.setMinimumSize(new java.awt.Dimension(433, 2331));
         jScrollPane8.setViewportView(jTextMueveNOP);
 
@@ -569,16 +573,17 @@ public class Inicio extends javax.swing.JFrame {
                         .addGap(36, 36, 36)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jTextField1)
                                 .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel9)
-                                .addComponent(jTextField2)
                                 .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jScrollPane8, javax.swing.GroupLayout.Alignment.TRAILING))
+                                .addComponent(jTextField2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                             .addComponent(jLabel10)
                             .addComponent(jLabel11)
-                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jScrollPane8, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jScrollPane7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 181, Short.MAX_VALUE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(116, 116, 116)
                         .addComponent(jLabelSINO)))
@@ -669,6 +674,8 @@ public class Inicio extends javax.swing.JFrame {
                         .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(46, 46, 46))
         );
+
+        jTextField2.getAccessibleContext().setAccessibleName("");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
