@@ -1,5 +1,5 @@
 # AutomatasFinitos
-Compiler assignment
+Compiler assignment :wrench:
 
 Estos son las variables que he agregado y deben tener en cuenta.
 
