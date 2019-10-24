@@ -1,4 +1,4 @@
-# AutomatasFinitos
+# AutomatasFinitos :computer:
 Compiler assignment
 
 Estos son las variables que he agregado y deben tener en cuenta.
