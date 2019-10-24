@@ -1,7 +1,7 @@
 # AutomatasFinitos
 Compiler assignment
 
-Estos son las variables que he agregado y deben tener en cuenta.
+Estos son las variables que he agregado y deben tener en cuenta. :peach:
 
 OP : Este es un array que guarda los caracteres especiales que vienen con una expresión regular, como son los paréntesis o el asterisco.
 
